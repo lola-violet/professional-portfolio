@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+:root {
+    --darkTone: #301210;
+    --midTone: #813528;
+    --accentTone: #f8c5bc;
+    --neutralTone: #cfb4ab;
+    --lightTone: #f8eae7;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--lightTone);
+}
+
+
+/* Header */
+header {
+    display: flex;
+    background-color: var(--darkTone);
+}
+
+header h1 {
+    display: flex;
+    background-color: var(--accentTone);
+    color: var(--darkTone);
+    margin: 10px 0;
+    padding: 5px 10px 5px 30px;
+}
+
+header nav {
+    display: flex;
+} 
+
+header nav a {
+    text-decoration: none;
+    color: var(--accentTone);
+    margin: auto 10px;
+    
+}
+
+/* nav {
+    display: block;
+    justify-content: right;
+} */
+
+/* Main */
+main {
+    background-color: var(--lightTone);
+}
+
+h2 {
+    font-size: 30px;
+    color: var(--midTone);
+}
+
+p {
+    color: var(--darkTone);
+}
+
+
+/* Banner */
+#banner img {
+    width: 100vw;
+    height: 150px;
+}
+
+
+
+/* Aside Labels */
+aside {
+    border-right: 5px solid var(--midTone);
+    width: 20vw;
+    padding: 5px 10px;
+    text-align: right;
+}
+
+
+/* About Me Section */
+#about-me {
+    display: flex;
+}
+#about-me p {
+    font-size: 12px;
+    padding: 5px 10px;
+    width: 70vw;
+}
+
+
+/* Work Section */
+#work {
+    display: flex;
+}
+
+#work article {
+    border: 5px solid var(--accentTone);
+}
+
+#work article img {
+    width: 200px;
+    height: 100px;
+}
+
+.work-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.big-card {
+    flex: 100%;
+    /* width: 70vw; */
+    background-image: url(https://www.vitruvianpartners.com/wp-content/uploads/placeholder-banner.png);
+}
+
+.big-heading {
+    background-color: var(--accentTone);
+    max-width: fit-content;
+    margin-bottom: 20px;
+    margin-top: 120px;
+}
+
+.work-heading {
+    background-color: var(--accentTone);
+    max-width: fit-content;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.card {
+    flex: 50%;
+    max-width: 70vw;
+    background-image: url(https://www.vitruvianpartners.com/wp-content/uploads/placeholder-banner.png);
+}
+
+/* Footer */
+footer {
+    display: flex;
+    background-color: var(--lightTone);
+}
+
+footer h2 {
+    text-align: right;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--darkTone);
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 20px 10px 20px;
+}
+
+#contact-me {
+    display: flex;
+}
