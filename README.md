@@ -14,3 +14,10 @@ A web application that displays my completed dev work, as well as my contact inf
 <br>
 
 # Usage
+<br>
+
+![professional_portfolio_top](/assets/images/professional_portfolio_top.png)
+<br>
+<br>
+
+![professional_portfolio_bottom](/assets/images/professional_portfolio_bottom.png)
